@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta name="keywords" content="JavaScript, WebRTC" />
+<meta name="description" content="WebRTC UWI" />
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+
+<title>Lab6</title>
+
+<!-- When we finish the codelab we'll move CSS and JavaScript to separate files -->
+<script src='js/adapter.js'></script>
+<script src="js/jquery.js"></script>
+<script src="js/lab6.js"></script>
+<script src="js/data.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+    
+
+</head>
+
+<body>
+  <div id="content">
+    <div id="screens">
+      <video id="localVideo" autoplay></video>
+      <video id="remoteVideo" autoplay></video>
+    </div>
+    <div class="clear"></div>
+    <div class="controls">
+      <button id="startButton">Start</button>
+      <button id="callButton">Call</button>
+      <button id="hangupButton">Hang Up</button>
+    </div>
+    
+    <div class="clear"></div>
+    <div id="textDataArea">
+      <textarea id="dataChannelSend" disabled></textarea>
+      <textarea id="dataChannelReceive" disabled></textarea>
+    </div>
+    <div class="clear"></div>
+    <div id="buttons" class="controls">
+      <button id="startMButton">Start</button>
+      <button id="sendMButton">Send</button>
+      <button id="closeMButton">Stop</button>
+    </div>   
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+body{
+background-image: url('../img/bg.png');
+}
+
+#content{
+width: 75%;
+margin: auto;
+}
+
+.clear {
+	  clear: both;
+	  display: block;
+	  overflow: hidden;
+	  visibility: hidden;
+	  width: 0;
+	  height: 0;
+	}
+
+video{
+display: inline-block;
+background: black;
+border-radius: 40px;
+width: 45%;
+height: 450px;
+border: rgb(134, 134, 134) solid 15px;
+margin: auto;
+}
+
+#localVideo{
+float: left;
+}
+
+#remoteVideo{
+float: right;
+}
+
+.controls{
+  
+  margin:20px auto;
+  width: 300px;
+}
+
+.controls button{
+  margin:auto;
+  width: 80px;
+  font-size: 1em;
+  border-radius: 7px;
+}
